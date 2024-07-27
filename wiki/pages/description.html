@@ -1,0 +1,72 @@
+{% extends "layout.html" %}
+  
+{% block title %}Project Description{% endblock %}
+{% block lead %}Describe how and why you chose your iGEM project.{% endblock %}
+
+{% block page_content %}
+
+<div class="row mt-4">
+  <div class="col">
+    <div class="bd-callout bd-callout-info">
+      <h4>Abstract</h4>
+      <p>Today, many mothers are unable to breastfeed for various reasons but have to choose to use formula to feed their children. However, the baby formula on the market cannot fully meet the needs of infants and toddlers as there is still a gap between the composition of cow's milk-based formula and breast milk. Therefore, we chose to use Saccharomyces cerevisiae to synthesize lactoferrin and N-acetylneuramin, which are essential for infant growth, as an additional supplement to the formula. Additionally, we make edible yeast containing these two substances into a chewable that is more suitable for infants and young children.</p>
+    </div>
+  </div>
+</div>
+
+<div class="row mt-4">
+  <div class="col-lg-12">
+    <h2>1. Our concern: the nutrition of formula milk is not comprehensive enough</h2>
+    <hr>
+    <P>In recent years, the number of newborns in China has been declining year after year. In 2022, the number of births in China hit a record low, dropping below 10 million. Our team noticed the problem and was very curious about the reason behind it. After investigating, we found that there are many reasons why people of the right age are reluctant to have children, including health concerns brought on by the 2019-nCoV, financial pressures, and more. </P>
+    <P>In addition, many believe that when career women give birth, their jobs are negatively affected. One factor that has to be mentioned is that breastfeeding can be a big burden on mothers who are working. At the same time, these mothers are caught in a dilemma as the formulae available in the market are still very different from breastmilk. On the one hand, the mothers worry that their children will not get enough nutrition, and on the other hand, they will worry that their work will be delayed. Career women who have encountered these problems often don't choose to continue having children any longer.</P>
+    <P>We have also learned that formulas with a more comprehensive nutritional structure are expensive, which undoubtedly adds to the financial burden of many families. And economic pressure is also a major reason for negative population growth.</P>
+    <P>After learning about the above issues, we were very anxious and desperate to do something to reduce the stress of the working mom. We wondered if it would be possible to develop a product that could be used as a supplement to milk powder to provide additional nutrition for infants and young children. This product should be inexpensive so that it can be made available to more families. Our approach would not be able to completely solve the problem of declining fertility, but it might relieve the pressure on many families, especially mothers.</P>
+  </div>
+  <div class="col-lg-12">
+    <h2>2. Our products: Lactoferrin and N-acetylneuraminic acid</h2>
+    <hr>
+    <P>After reviewing the literature, we found that two substances, lactoferrin and N-acetylneuraminic acid, are essential for the growth and development of infants and children.</P>
+    <P>N-Acetyl Neuraminic Acid, abbreviated to Neu5Ac, which as an crucial component of infant brain ganglioside. During the period of early childhood , by regulating the growth of nerve cells and affecting the transmission of nerve impulses in neurons, Neu5Ac can expedite the rate of intellectual development for infants.Because of its special structure, N-acetylneuraminic acid has many physiological and biochemical functions that are important in human health. Therefore, N-acetylneuraminic acid plays an important role in the development of the brain during infancy and throughout childhood.</P>
+    <P>However, it has been reported that the N-acetylneuraminic acid content of breast milk decreases over time. In addition, formula milk contains only 15-35 mg/litre of Neu5Ac, which is far from sufficient for the daily needs of infants and young children.</P>
+    <P>Lactoferrin is a multifunctional protein that is found in high levels in human colostrum and lower levels in mature breast milk. Adding lactoferrin to infant supplements has a number of benefits, not the least of which is that it helps protect infants and young children from bacterial, viral and fungal infections by aggregating with iron and making it unavailable to bacteria.</P>
+    <P>The content of lactoferrin in breast milk is approximately 2.5g/L, while the content of most of baby formulas, it is only 0.05g/L. A lack of lactoferrin during feeding may impair an infant's intestinal barrier and innate immune functions, disturb the intestinal microbiota and result in neuro-immune dysfunction and developmental delay in the hippocampus.</P>
+    <P>Therefore, for infants who consume only powdered milk, the supplementation of lactoferrin is particularly crucial as they are in a critical period of growth and development, requiring sufficient nutrients to support their bodily development.</P>
+    <P>Based on the above information we reviewed, our team developed an engineered Saccharomyces cerevisiae that produces lactoferrin and N-acetylneuraminic acid as a nutritional supplement for infants and young children to help the next generation grow healthily and develop intellectually.</P>
+  </div>
+</div>
+
+<div class="row mt-4">
+  <div class="col-lg-12">
+    <h2>3. Our Engineering: Nutrient synthesis using Saccharomyces cerevisiae</h2>
+    <hr>
+    <P>We chose Saccharomyces cerevisiae as the chassis cell for the production of lactoferrin and N-acetylneuraminic acid not only because it is a more intensively researched model organism, but also because yeast is widely used in the food industry and its safety can be guaranteed.</P>
+    <P>In our experiments, we chose the recombinant vector pESC-URA containing GAL1 and GAL10 promoters to express our genes and provide a stable gene expression. The GAL1,10 promotors are used for expression in yeast specifically and eukaryotes broadly, and they are really canonical in these regions . They are the best studies promoters in all eukaryotic organisms too, which can be activated in the situation that galactose existed and glucose is absent.</P>
+    <P>The control of these repressible promotors can help one or two cloned genes be introduced into a yeast host strain with the pESC-URA vector. The vector allowed us to have biosynthesis of the heterologous proteins, leading to the synthesis of the lactoferrin, and N-acetylneuraminic acid.</P>
+    <P>We chose to introduce a human-derived lactoferrin synthesis gene into the engineered yeast to complete lactoferrin synthesis. Since the lactoferrin encoded by the human gene is then structurally and functionally identical to the natural lactoferrin in the human body, it is able to better exercise its physiological activity for higher nutritional value and health benefits. As for N-acetylneuraminic acid, we chose the most used synthetic genes after literature research because they lead to higher yields.</P>
+  </div>
+  <div class="col-lg-12">
+    <h2>References</h2>
+    <hr>
+    <p>[1] 中国出生人口首次跌破1000万 人口出生率连续三年跌破1%_新浪新闻 (sina.com.cn)</P>
+    <P>[2] 女性只是“生娃机器”？大数据看中国女性生育观现状_腾讯新闻 (qq.com)</P>
+    <P>[3] 林燕玲,王春光,牛金铭. 工作场所母乳喂养及其影响因素分析[J]. 中国劳动关系学院学报,2022,36(4):17-30.</P>
+    <P>[4] 刘爽,陈磊,PHILIP HASELBERGER,等. 离子色谱法测定母乳和牛乳中的N-乙酰神经氨酸[J]. 中国食品学报,2021,21(9):250-256. DOI:10.16429/j.1009-7848.2021.09.027.</P>
+    <P>[5] 卢晓婷,刘钊燕,罗贇,等. N-乙酰神经氨酸对婴幼儿的营养功能及其在婴幼儿配方产品中的应用现状[J]. 现代预防医学,2020,47(16):2953-2957.</P>
+    <P>[6] Hassan M I, Lundgren B R, Chaumun M, et al. Total biosynthesis of legionaminic acid, a bacterial sialic acid analogue[J]. Angewandte Chemie, 2016, 128(39): 12197-12200.</P>
+    <P>[7] Röhrig C H, Choi S S H, Baldwin N. The nutritional role of free sialic acid, a human milk monosaccharide, and its application as a functional food ingredient[J]. Critical Reviews in Food Science and Nutrition, 2017, 57(5): 1017-1038.</P>
+    <P>[8] EFSA Panel on Dietetic Products, Nutrition and Allergies (NDA), Turck D, Bresson J L, et al. Safety of synthetic N‐acetyl‐d‐neuraminic acid as a novel food pursuant to Regulation (EC) No 258/97[J]. EFSA Journal, 2017, 15(7): e04918.</P>
+    <P>[9] 刘彦品,董学艳,姜铁民,等. 母乳中乳铁蛋白含量及影响因素研究[J]. 中国食品添加剂,2018(8):70-74. DOI:10.3969/j.issn.1006-2513.2018.08.005.</P>
+    <P>[10] Giansanti F, Panella G, Leboffe L, et al. Lactoferrin from milk: Nutraceutical and pharmacological properties[J]. Pharmaceuticals, 2016, 9(4): 61</P>
+    <P>[11] Manzoni P, Dall'Agnola A, Tomé D, et al. Role of lactoferrin in neonates and infants: an update[J]. American journal of perinatology, 2018, 35(06): 561-565.</P>
+    <P>[12] Wang W, Cheng Z, Wang X, et al. Lactoferrin deficiency during lactation increases the risk of depressive-like behavior in adult mice[J]. BMC biology, 2023, 21(1): 242.</P>
+    <P>[13] Jańczuk A, Brodziak A, Czernecki T, et al. Lactoferrin—The Health-Promoting Properties and Contemporary Application with Genetic Aspects[J]. Foods, 2022, 12(1): 70.</P>
+    <P>[14] Kell D B, Heyden E L, Pretorius E. The biology of lactoferrin, an iron-binding protein that can help defend against viruses and bacteria[J]. Frontiers in immunology, 2020, 11: 550441.</P>
+    <P>[15] https://www.snapgene.com/plasmids/yeast_plasmids/pESC-URA</P>
+    <P>[16] https://www.agilent.com/cs/library/usermanuals/Public/217451.pdf</P>
+    <P>[17] Elison G L, Xue Y, Song R, et al. Insights into bidirectional gene expression control using the canonical GAL1/GAL10 promoter[J]. Cell reports, 2018, 25(3): 737-748. e4.</P>
+    <P>[18] Conesa C, Calvo M, Sánchez L. Recombinant human lactoferrin: a valuable protein for pharmaceutical products and functional foods[J]. Biotechnology Advances, 2010, 28(6): 831-838.</p>
+  </div>
+</div>
+
+{% endblock %}
